@@ -13,23 +13,23 @@ public class Calculator {
     BinaryOperator<Integer> plus = (x, y) -> x + y;
     BinaryOperator<Integer> minus = (x, y) -> x - y;
     BinaryOperator<Integer> multiply = (x, y) -> x * y;
+    BinaryOperator<Integer> devide = (x, y) -> x / y;
 
+
+//    вариант 1
 //    BinaryOperator<Integer> devide = (x, y) -> y == 0 ? y : x / y;
 
+//    вариант 2
 //    BinaryOperator<Integer> devide = (x, y) -> {
 //        try {
 //            return x / y;
-//        } catch (Exception e){
+//        } catch (Exception e) {
 //            System.out.println("ошибка, деление на ноль");
 //        }
 //        return y;
+//
 //    };
 
-
-
-    // x == 0 ? x : x / y;
-
-    String s = "dxsxsx";
 
     Consumer<Integer> println = System.out::println;
 
