@@ -19,6 +19,7 @@ public class Calculator {
 //    вариант 1
 //    BinaryOperator<Integer> devide = (x, y) -> y == 0 ? y : x / y;
 
+
 //    вариант 2
 //    BinaryOperator<Integer> devide = (x, y) -> {
 //        try {
